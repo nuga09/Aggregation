@@ -1,0 +1,116 @@
+{"airports": {"buffer": 4000},
+"airfields": {"buffer": 1500},
+"health_treatment_buildings": {"buffer": 1000},
+"buildings": {"buffer": 720},
+"mixed_buildings": {"buffer": 720},
+"water_still": {"buffer": 0},
+"water_river": {"buffer": 66},
+"water_stream": {"buffer": 0},
+"motorway": {"buffer": 166},
+"primary_roads": {"buffer": 106},
+"secondary_roads": {"buffer": 106},
+"regional_roads": {"buffer": 106},
+"railways": {"buffer":166},
+"power_lines": {"buffer": 166},
+"farmland": null,
+"grassland": null,
+"forests": null,
+"inner_areas": {"buffer": 1000},
+"outer_areas": null,
+"residential": null,
+"mixed_usage": null,
+"industrial_commercial": {"buffer": 0},
+"vor": {"buffer": 15000},
+"dvor": {"buffer": 10000},
+"seismic_station": {"buffer": 1000},
+"military": {"buffer": 0},
+"recreational": {"buffer": 0},
+"cemetery": {"buffer": 0},
+"camping": null,
+"historical": null,
+"mineral_extraction": {"buffer": 0},
+"dump_sites": null,
+"construction": null,
+"wind_100m": null,
+"wind_100m_era": null,
+"wind_100m_power": null,
+"elevation": null,
+"slope": {"value": [17, null], "buffer":0},
+"birds": null,
+"nature_protection": null,
+"nationalpark": null,
+"habitats": null,
+"landscape": null,
+"biospheres_core": {"buffer": 300},
+"biospheres_develop": null,
+"biospheres_maintain": null,
+"auxiliary":
+	{
+	"lanuv_forest":{
+			"type": "vector",
+			"source_path": "state_05/Wald/Wald_ohne_Wald_Reich_Gem.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"lanuv_landscape":{
+			"type": "vector",
+			"source_path": "state_05/LBE-NRW-20181005_EPSG25832_Shape/LBE_NRW_Stand_05_10_2018.shp",
+			"where_text": "Wert_Text in ('sehr hoch', 'hoch')",
+			"buffer": 0
+			},
+	"natural_forest_NRW":{
+			"type": "vector",
+			"source_path": "state_05/SonstigeSchutzgebiete_EPSG25832_Shape/ql_schpolygon.shp",
+			"where_text": "Gebietstyp='NWZ'",
+			"buffer": 0
+			},
+	"biotope_NRW":{
+			"type": "vector",
+			"source_path": "state_05/GeschuetzteBiotope_EPSG25832_Shape/ql_gbtpolygon.shp",
+			"where_text": null,
+			"buffer": 300
+			},
+	"FFH_NRW":{
+			"type": "vector",
+			"source_path": "state_05/FFH-Gebiete_EPSG25832_Shape/vw_ffhpolygonproved.shp",
+			"where_text": null,
+			"buffer": 300
+			},
+	"bird_NRW":{
+			"type": "vector",
+			"source_path": "state_05/Vogelschutzgebiete_EPSG25832_Shape/vw_vsgpolygonproved.shp",
+			"where_text": null,
+			"buffer": 300
+			},
+	"established_floodplains":{
+			"type": "vector",
+			"source_path": "state_05/uesg_EPSG25832_Shape/festgesetzte_Ueberschwemmungsgebiete.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"provisionally_floodplains":{
+			"type": "vector",
+			"source_path": "state_05/uesg_EPSG25832_Shape/vorlaeufig_gesicherte_Ueberschwemmungsgebiete.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"nationalpark_NRW":{
+			"type": "vector",
+			"source_path": "state_05/Nationalpark_EPSG25832_Shape/vw_nppolygonproved.shp",
+			"where_text": null,
+			"buffer": 300
+			},
+	"nature_reserve_NRW":{
+			"type": "vector",
+			"source_path": "state_05/Naturschutzgebiete_EPSG25832_Shape/vw_nsgpolygonproved.shp",
+			"where_text": null,
+			"buffer": 300
+			},
+	"BSN_NRW":{
+			"type": "vector",
+			"source_path": "state_05/BereicheSchutzNatur_EPSG25832_Shape/vw_bsnpolygonproved.shp",
+			"where_text": null,
+			"buffer": 0
+			}
+	}
+}

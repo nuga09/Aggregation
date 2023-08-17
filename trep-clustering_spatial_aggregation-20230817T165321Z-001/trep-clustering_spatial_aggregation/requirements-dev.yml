@@ -1,0 +1,24 @@
+name: trep
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pytest
+  - pytest-cov
+  - pylint
+  - autopep8
+  - jupyter
+  - notebook
+  - jupyterlab
+  - pip
+  - matplotlib
+  - descartes
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - gdal>2.2.0,<3.0.0
+  - sqlalchemy
+  - pip:
+      - geoalchemy2
+      - mysqlclient

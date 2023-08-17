@@ -1,0 +1,100 @@
+{
+"auxiliary":{
+	"protected_forest_BW":{
+			"type": "vector",
+			"source_path": "state_08/Waldschutzgebiete/Waldschutzgebiet_polygon.shp",
+			"where_text": null,
+			"buffer": 200
+			},
+	"biosphere_core_BW":{
+			"type": "vector",
+			"source_path": "state_08/Biosphaerengebiet/Biosphaerengebiet - Zone_polygon.shp",
+			"where_text":  "ZONE =  'Kernzone'",
+			"buffer": 200
+			},
+	"biosphere_maintenance_BW":{
+			"type": "vector",
+			"source_path": "state_08/Biosphaerengebiet/Biosphaerengebiet - Zone_polygon.shp",
+			"where_text": "ZONE = 'Pflegezone'",
+			"buffer": 0
+			},
+	"FFH_region_BW":{
+			"type": "vector",
+			"source_path": "state_08/FFH-Gebiet/FFH-Gebiet.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"FFH_meadows_BW":{
+			"type": "vector",
+			"source_path": "state_08/FFH-Maehwiese/Maehwiesen_polygon.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"eu_bird_BW":{
+			"type": "vector",
+			"source_path": "state_08/SPA-Gebiet/Vogelschutzgebiet.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"nationalpark_BW":{
+			"type": "vector",
+			"source_path": "state_08/Nationalpark/Nationalpark_polygon.shp",
+			"where_text": null,
+			"buffer": 200
+			},
+	"nature_reserve_BW":{
+			"type": "vector",
+			"source_path": "state_08/Naturschutzgebiete/Naturschutzgebiet (NSG).shp",
+			"where_text": null,
+			"buffer": 200
+			},
+	"capercaillie_BW":{
+			"type": "vector",
+			"source_path": "state_08/fva_arf/Auerhuhn_Prio_20210316.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"water_protection_BW":{
+			"type": "vector",
+			"source_path": "state_08/Wasserschutzgebietszonen/Wasserschutzgebietszone (M1).shp",
+			"where_text": "ZONE = 'Zone I und II bzw. IIA' or ZONE = 'Zone IIB'",
+			"buffer": 0
+			},
+	"nature_monument_BW":{
+			"type": "vector",
+			"source_path": "state_08/NaturdenkmaleENDFND/Naturdenkmal, flaechenhaft.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"biotope_BW":{
+			"type": "vector",
+			"source_path": "state_08/BiotopeLandesweit/Offenlandkartierung_polygon.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"biotope_forest_BW":{
+			"type": "vector",
+			"source_path": "state_08/BiotopeLandesweit/Waldbiotopkartierung_polygon.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"landscape_BW":{
+			"type": "vector",
+			"source_path": "state_08/Landschaftsschutzgebiete/Landschaftsschutzgebiet (LSG).shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"wind_turbulence_BW":{
+			"type": "raster",
+			"source_path": "state_08/tiff_WindatlasBW_160m/Baden160_align_turbulence.tif",
+			"value": [0.2, null],
+			"buffer": 0
+			},
+	"wind_power_BW":{
+			"type": "raster",
+			"source_path": "state_08/tiff_WindatlasBW_160m/Baden160_align_energydensity.tif",
+			"value": [null, 215],
+			"buffer": 0
+			}
+	}
+}

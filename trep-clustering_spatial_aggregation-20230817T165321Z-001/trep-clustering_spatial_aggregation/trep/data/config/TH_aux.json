@@ -1,0 +1,84 @@
+{
+"auxiliary":
+	{
+	"water_protection_TH":{
+			"type": "vector",
+			"source_path": "state_16/Thueringen_Protection/water_protection.shp",
+			"where_text": "(Zone='I' OR Zone='II') AND Status='festgesetzt'",
+			"buffer": 0
+			},
+	"flood_TH":{
+			"type": "vector",
+			"source_path": "state_16/Thueringen_Protection/ueberschwemmung.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"nationalpark_TH":{
+			"type": "vector",
+			"source_path": "state_16/Thueringen_Protection/nationalpark.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"nature_reserve_TH":{
+			"type": "vector",
+			"source_path": "state_16/Thueringen_Protection/naturschutzgebiet.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"nature_monument_TH":{
+			"type": "vector",
+			"source_path": "state_16/Thueringen_Protection/nationales_naturmonument.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+
+	"biosphere_reserve_TH":{
+			"type": "vector",
+			"source_path": "state_16/Thueringen_Protection/biosphaerenreservat.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"natral_forest_parcel_TH":{
+			"type": "vector",
+			"source_path": "state_16/Thueringen_Protection/WALD/NATURWALDPARZELLE.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"natral_forest_reserve_TH":{
+			"type": "vector",
+			"source_path": "state_16/Thueringen_Protection/WALD/NATURWALDRESERVAT.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"recreational forest_TH":{
+			"type": "vector",
+			"source_path": "state_16/Thueringen_Protection/WALD/ERHOLUNGSWALD.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"forest_in_forest_range_TH":{
+			"type": "vector",
+			"source_path": "state_05/LBE-NRW-20181005_EPSG25832_Shape/WALD/WALD_IN_WALDARMEN_GEBIETEN.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"soil_protection_forest_TH":{
+			"type": "vector",
+			"source_path": "state_05/LBE-NRW-20181005_EPSG25832_Shape/WALD/BODENSCHUTZFUNKTION.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"emission_protection_TH":{
+			"type": "vector",
+			"source_path": "state_05/LBE-NRW-20181005_EPSG25832_Shape/WALD/IMMISIONSSCHUTZFUNKTION.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"noise_protection_forest_TH":{
+			"type": "vector",
+			"source_path": "state_05/LBE-NRW-20181005_EPSG25832_Shape/WALD/LAERMSCHUTZFUNKTION.shp",
+			"where_text": null,
+			"buffer": 0
+			}
+	}
+}

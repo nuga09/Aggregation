@@ -1,0 +1,88 @@
+{"buildings_all": {"buffer": 10},
+"water_still": {"buffer": 0},
+"water_river": {"buffer": 0},
+"water_stream": null,
+"motorway": {"buffer": 200},
+"primary_roads": {"buffer": 100},
+"secondary_roads": {"buffer": 100},
+"regional_roads": {"buffer": 100},
+"railways": {"buffer": 200},
+"power_lines": {"buffer": 100},
+"farmland": null,
+"grassland": null,
+"forests": {"buffer": 10},
+"trees": {"buffer": 10},
+"inner_areas": {"buffer": 0},
+"outer_areas": null,
+"residential": {"buffer": 0},
+"cemetery": {"buffer": 0},
+"recreational": {"buffer": 0},
+"mixed_usage": null,
+"5Houses": null,
+"10Houses": null,
+"industrial_commercial": {"buffer": 0},
+"airports": {"buffer": 0},
+"airfields": {"buffer": 0},
+"dvor": null,
+"military": {"buffer": 0},
+"camping": null,
+"historical": null,
+"mineral_extraction": {"buffer": 0},
+"dump_sites": null,
+"construction": null,
+"wind_100m": null,
+"wind_100m_era": null,
+"wind_100m_power": null,
+"elevation": null,
+"slope": {"value": [10, null], "buffer":0},
+ "auxiliary":{
+	"biosphere_core_BW":{
+			"type": "vector",
+			"source_path": "state_08/Biosphaerengebiet/Biosphaerengebiet - Zone_polygon.shp",
+			"where_text":  "ZONE =  'Kernzone'",
+			"buffer": 0
+			},
+	"nature_monument_BW":{
+			"type": "vector",
+			"source_path": "state_08/NaturdenkmaleENDFND/Naturdenkmal, flaechenhaft.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"nationalpark_BW":{
+			"type": "vector",
+			"source_path": "state_08/Nationalpark/Nationalpark_polygon.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"nature_reserve_BW":{
+			"type": "vector",
+			"source_path": "state_08/Naturschutzgebiete/Naturschutzgebiet (NSG).shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"water_protection_BW":{
+			"type": "vector",
+			"source_path": "state_08/Wasserschutzgebietszonen/Wasserschutzgebietszone (M1).shp",
+			"where_text": "ZONE = 'Zone I und II bzw. IIA'",
+			"buffer": 0
+			},
+	"biotope_BW":{
+			"type": "vector",
+			"source_path": "state_08/BiotopeLandesweit/Offenlandkartierung_polygon.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"biotope_forest_BW":{
+			"type": "vector",
+			"source_path": "state_08/BiotopeLandesweit/Waldbiotopkartierung_polygon.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"flood_BW":{
+			"type": "vector",
+			"source_path": "state_08/Ueberschwemmungsgebiete/HQ100.shp",
+			"where_text": null,
+			"buffer": 0
+			}
+	}
+}

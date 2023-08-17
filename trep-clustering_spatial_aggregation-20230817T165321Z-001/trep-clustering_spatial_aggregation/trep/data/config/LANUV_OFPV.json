@@ -1,0 +1,87 @@
+{"available_side_stripes": 110,
+"buildings_all": {"buffer": 10},
+"water_still": {"buffer": 0},
+"water_river": {"buffer": 0},
+"water_stream": null,
+"motorway": {"buffer": 15},
+"primary_roads": {"buffer": 7.5},
+"secondary_roads": {"buffer": 7.5},
+"regional_roads": {"buffer": 7.5},
+"railways": {"buffer": 5},
+"power_lines": null,
+"farmland": null,
+"grassland": null,
+"forests": {"buffer": 10},
+"trees": {"buffer": 10},
+"inner_areas": null,
+"outer_areas": null,
+"residential": {"buffer": 0},
+"cemetery": {"buffer": 0},
+"recreational": {"buffer": 0},
+"mixed_usage": null,
+"5Houses": null,
+"10Houses": null,
+"industrial_commercial": {"buffer": 0},
+"dvor": null,
+"military": {"buffer": 0},
+"camping": null,
+"historical": null,
+"mineral_extraction": null,
+"dump_sites": null,
+"construction": null,
+"wind_100m": null,
+"wind_100m_era": null,
+"wind_100m_power": null,
+"elevation": null,
+"slope": null,
+"auxiliary":{
+	"biotope_NRW":{
+			"type": "vector",
+			"source_path": "state_05/GeschuetzteBiotope_EPSG25832_Shape/ql_gbtpolygon.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"FFH_NRW":{
+			"type": "vector",
+			"source_path": "state_05/FFH-Gebiete_EPSG25832_Shape/vw_ffhpolygonproved.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"bird_NRW":{
+			"type": "vector",
+			"source_path": "state_05/Vogelschutzgebiete_EPSG25832_Shape/vw_vsgpolygonproved.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"established_floodplains":{
+			"type": "vector",
+			"source_path": "state_05/uesg_EPSG25832_Shape/festgesetzte_Ueberschwemmungsgebiete.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"provisionally_floodplains":{
+			"type": "vector",
+			"source_path": "state_05/uesg_EPSG25832_Shape/vorlaeufig_gesicherte_Ueberschwemmungsgebiete.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"nationalpark_NRW":{
+			"type": "vector",
+			"source_path": "state_05/Nationalpark_EPSG25832_Shape/vw_nppolygonproved.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"nature_reserve_NRW":{
+			"type": "vector",
+			"source_path": "state_05/Naturschutzgebiete_EPSG25832_Shape/vw_nsgpolygonproved.shp",
+			"where_text": null,
+			"buffer": 0
+			},
+	"BSN_NRW":{
+			"type": "vector",
+			"source_path": "state_05/BereicheSchutzNatur_EPSG25832_Shape/vw_bsnpolygonproved.shp",
+			"where_text": null,
+			"buffer": 0
+			}
+	}
+}
